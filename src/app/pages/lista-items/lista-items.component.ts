@@ -14,6 +14,14 @@ export class ListaItemsComponent{
      { id: '2', item: 'Jane', descripción: 30, selection: 'Los Angeles' },
      { id: '3', item: 'Bob', descripción: 40, selection: 'Chicago' },
      { id: '4', item: 'Alice', descripción: 35, selection: 'San Francisco' },
+     { id: '1', item: 'John', descripción: 25, selection: 'New York' },
+     { id: '2', item: 'Jane', descripción: 30, selection: 'Los Angeles' },
+     { id: '3', item: 'Bob', descripción: 40, selection: 'Chicago' },
+     { id: '4', item: 'Alice', descripción: 35, selection: 'San Francisco' },
+     { id: '1', item: 'John', descripción: 25, selection: 'New York' },
+     { id: '2', item: 'Jane', descripción: 30, selection: 'Los Angeles' },
+     { id: '3', item: 'Bob', descripción: 40, selection: 'Chicago' },
+     { id: '4', item: 'Alice', descripción: 35, selection: 'San Francisco' },
     // agrega más datos como sea necesario
   ];
   dataSource = new MatTableDataSource(this.data);
